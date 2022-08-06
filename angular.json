@@ -23,6 +23,11 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
+            "allowedCommonJsDependencies": [
+              "socket.io-client",
+              "peerjs-js-binarypack",
+              "webrtc-adapter"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
